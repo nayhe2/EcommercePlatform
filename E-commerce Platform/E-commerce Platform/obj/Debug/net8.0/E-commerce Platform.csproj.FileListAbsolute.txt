@@ -1,0 +1,35 @@
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\appsettings.Development.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\appsettings.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.staticwebassets.endpoints.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.exe
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.deps.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.runtimeconfig.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\E-commerce Platform.pdb
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.csproj.AssemblyReference.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.GeneratedMSBuildEditorConfig.editorconfig
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.AssemblyInfoInputs.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.AssemblyInfo.cs
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.csproj.CoreCompileInputs.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.MvcApplicationPartsAssemblyInfo.cs
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.MvcApplicationPartsAssemblyInfo.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\scopedcss\bundle\E-commerce Platform.styles.css
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\staticwebassets.build.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\staticwebassets.development.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commer.1AA8EDE8.Up2Date
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\refint\E-commerce Platform.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.pdb
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\E-commerce Platform.genruntimeconfig.cache
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net8.0\ref\E-commerce Platform.dll

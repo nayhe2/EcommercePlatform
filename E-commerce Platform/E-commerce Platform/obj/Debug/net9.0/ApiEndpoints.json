@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ECommercePlatform.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommercePlatform.Controllers.ProductsController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addProductDto",
+        "Type": "ECommercePlatform.Models.AddProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
