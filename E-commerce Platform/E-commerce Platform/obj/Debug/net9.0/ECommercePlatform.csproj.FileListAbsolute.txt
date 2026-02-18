@@ -163,3 +163,7 @@ D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\r
 D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.pdb
 D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.genruntimeconfig.cache
 D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ref\ECommercePlatform.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Azure.Storage.Blobs.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Azure.Storage.Common.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.IO.Hashing.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.sourcelink.json
