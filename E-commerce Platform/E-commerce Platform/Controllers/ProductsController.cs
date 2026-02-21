@@ -40,14 +40,7 @@ namespace ECommercePlatform.Controllers
         [HttpPost]
         public async Task<IActionResult> AddProduct(CreateProductDto dto)
         {
-
-            if(!await dbContext.Categories.AnyAsync(c=>c.Id == dto.CategoryId))
-            {
-                return BadRequest("Category with given id doesnt exist");
-            }
-
-
-            Product newProduct = new Product()
+            var newProduct = new Product()
             {
                 Name = dto.Name,
                 Description = dto.Description,
