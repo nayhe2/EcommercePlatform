@@ -339,3 +339,11 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommerc.8B9E5424.Up2Date
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.genruntimeconfig.cache
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ref\ECommercePlatform.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\AutoMapper.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\FluentValidation.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Formats.Asn1.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Text.Json.dll
+D:\prflio\Online-shop\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\swae.build.ex.cache

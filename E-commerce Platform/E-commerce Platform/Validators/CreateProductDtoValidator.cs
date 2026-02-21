@@ -1,4 +1,4 @@
-﻿using ECommercePlatform.Models.Dto;
+﻿using ECommercePlatform.DTOs;
 using FluentValidation;
 namespace ECommercePlatform.Validators
 {

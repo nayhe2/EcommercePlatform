@@ -1,4 +1,4 @@
-﻿using ECommercePlatform.Models.Entities;
+﻿using ECommercePlatform.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommercePlatform.Data

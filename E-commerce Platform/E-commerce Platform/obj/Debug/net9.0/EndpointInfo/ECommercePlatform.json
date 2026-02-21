@@ -237,21 +237,17 @@
         "additionalProperties": false
       },
       "CreateProductDto": {
-        "required": [
-          "name"
-        ],
         "type": "object",
         "properties": {
           "name": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "description": {
             "type": "string",
             "nullable": true
           },
           "price": {
-            "minimum": 0.01,
             "type": "number",
             "format": "double"
           },

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ECommercePlatform.Models.Dto.CreateCategoryDto",
+        "Type": "ECommercePlatform.DTOs.CreateCategoryDto",
         "IsRequired": true
       }
     ],
@@ -46,7 +46,7 @@
       },
       {
         "Name": "dto",
-        "Type": "ECommercePlatform.Models.Dto.CreateCategoryDto",
+        "Type": "ECommercePlatform.DTOs.CreateCategoryDto",
         "IsRequired": true
       }
     ],
@@ -88,7 +88,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ECommercePlatform.Models.Dto.CreateProductDto",
+        "Type": "ECommercePlatform.DTOs.CreateProductDto",
         "IsRequired": true
       }
     ],
@@ -109,7 +109,7 @@
       },
       {
         "Name": "dto",
-        "Type": "ECommercePlatform.Models.Dto.CreateProductDto",
+        "Type": "ECommercePlatform.DTOs.CreateProductDto",
         "IsRequired": true
       }
     ],

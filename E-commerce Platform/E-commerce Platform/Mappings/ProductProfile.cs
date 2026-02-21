@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using ECommercePlatform.Models.Dto;
-using ECommercePlatform.Models.Entities;
+using ECommercePlatform.DTOs;
+using ECommercePlatform.Models;
 namespace ECommercePlatform.Mappings
 {
     public class ProductProfile : Profile

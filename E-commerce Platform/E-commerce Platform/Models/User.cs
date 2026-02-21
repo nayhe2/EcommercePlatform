@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace ECommercePlatform.Models.Entities
+namespace ECommercePlatform.Models
 {
     public class User
     {

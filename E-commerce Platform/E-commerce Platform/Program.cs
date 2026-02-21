@@ -1,5 +1,8 @@
 using Azure.Storage.Blobs;
 using ECommercePlatform.Data;
+using ECommercePlatform.Mappings;
+using ECommercePlatform.Services;
+using ECommercePlatform.Services.Interfaces;
 using ECommercePlatform.Validators;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -18,13 +21,14 @@ builder.Services.AddValidatorsFromAssemblyContaining<CreateProductDtoValidator>(
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(sqlConnection);
 });
 builder.Services.AddSingleton(new BlobContainerClient(blobConnection, "product-images"));
 
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

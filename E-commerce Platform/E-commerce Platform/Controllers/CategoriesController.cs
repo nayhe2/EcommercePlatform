@@ -1,10 +1,12 @@
 ﻿using ECommercePlatform.Data;
-using ECommercePlatform.Models.Dto;
-using ECommercePlatform.Models.Entities;
-using Microsoft.AspNetCore.Http;
+using ECommercePlatform.DTOs;
+using ECommercePlatform.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ECommercePlatform.Services;
 using System;
+using ECommercePlatform.Services.Interfaces;
+using System.Reflection.Metadata.Ecma335;
 
 namespace ECommercePlatform.Controllers
 {
@@ -12,91 +14,44 @@ namespace ECommercePlatform.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ApplicationDbContext dbContext;
+        private readonly ICategoryService categoryService;
 
-        public CategoryController(ApplicationDbContext dbContext)
+        public CategoryController(ICategoryService categoryService)
         {
-            this.dbContext = dbContext;
+            this.categoryService = categoryService;
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCategory([FromBody] CreateCategoryDto dto)
+        public async Task<IActionResult> CreateCategory(CreateCategoryDto dto)
         {
-            if (string.IsNullOrWhiteSpace(dto.Name))
-            {
-                return BadRequest("category name cannot be empty.");
-            }
-
-            var newCategory = new Category
-            {
-                Name = dto.Name
-            };
-
-            dbContext.Categories.Add(newCategory);
-            await dbContext.SaveChangesAsync();
-
-            var responseDto = new CategoryDto
-            {
-                Id = newCategory.Id,
-                Name = newCategory.Name
-            };
-
+            var responseDto = await categoryService.CreateCategoryAsync(dto);
             return Ok(responseDto);
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllCategories([FromQuery] Guid? id)
         {
-            var query = dbContext.Categories.AsQueryable();
-
-            if (id.HasValue)
-            {
-                query = query.Where(c => c.Id == id.Value);
-            }
-
-            var result = await query.Select(c => new CategoryDto
-            {
-                Id = c.Id,
-                Name = c.Name,
-                Products = c.Products.Select(p => new ProductDto
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Price = p.Price,
-                    Description = p.Description,
-                    ImageUrl = p.ImageUrl,
-                    StockQuantity = p.StockQuantity,
-
-                    CategoryId = p.CategoryId,
-                    CategoryName = c.Name
-                }).ToList()
-            }).ToListAsync();
-
+            var result = await categoryService.GetAllCategoriesAsync(id);
             return Ok(result);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategory(Guid id, [FromBody] CreateCategoryDto dto)
         {
-            var category = await dbContext.Categories.FindAsync(id);
-
-            if (category == null) 
-                return BadRequest("category does not exist");
-
-            category.Name = dto.Name;
-            await dbContext.SaveChangesAsync();
-            return Ok(category);     
+            var success = await categoryService.UpdateCategoryAsync(id, dto);
+            if (!success)
+                return NotFound("category not found");
+            
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(Guid id)
         {
-            var category = await dbContext.Categories.FindAsync(id);
-            if (category == null)
-                return BadRequest("category not found");
-            
-            dbContext.Categories.Remove(category);
-            await dbContext.SaveChangesAsync();
+            var success = await categoryService.DeleteCategoryAsync(id);
+            if (!success)
+                return NotFound("category not found");
+
             return NoContent();
         }
     }

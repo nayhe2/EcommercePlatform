@@ -1,9 +1,11 @@
 ﻿using ECommercePlatform.Data;
+using ECommercePlatform.DTOs;
+using ECommercePlatform.Models;
+using ECommercePlatform.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ECommercePlatform.Models.Entities;
-using ECommercePlatform.Models.Dto;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Principal;
 
 namespace ECommercePlatform.Controllers
 {
@@ -11,84 +13,44 @@ namespace ECommercePlatform.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly ApplicationDbContext dbContext;
+        private readonly IProductService productService;
 
-        public ProductsController(ApplicationDbContext dbContext)
+        public ProductsController(IProductService productService)
         {
-            this.dbContext = dbContext;
+            this.productService = productService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
-           var products = await dbContext.Products
-                .Select(p=> new ProductDto
-                {
-                    Id=p.Id,
-                    Name=p.Name,
-                    Price = p.Price,
-                    ImageUrl = p.ImageUrl,
-                    Description = p.Description,
-                    CategoryName = p.Category.Name,
-                    CategoryId = p.CategoryId,
-                    StockQuantity = p.StockQuantity
-
-                }).ToListAsync();
-            return Ok(products);
+            var result = await productService.GetAllProductsAsync();
+            return Ok(result);
         }
 
         [HttpPost]
         public async Task<IActionResult> AddProduct(CreateProductDto dto)
         {
-            var newProduct = new Product()
-            {
-                Name = dto.Name,
-                Description = dto.Description,
-                Price = dto.Price,
-                ImageUrl = dto.ImageUrl,
-                StockQuantity = dto.StockQuantity,
-                CategoryId = dto.CategoryId,
-
-            };
-
-            dbContext.Products.Add(newProduct);
-            await dbContext.SaveChangesAsync();
-            return Ok(newProduct);
+            var result = await productService.AddProductAsync(dto);
+            return Ok(result);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(Guid id, [FromBody] CreateProductDto dto)
+        public async Task<IActionResult> UpdateProduct(Guid id, CreateProductDto dto)
         {
-            var product = await dbContext.Products.FindAsync(id);
-
-            if (product == null)
+            var success = await productService.UpdateProductAsync(id, dto);
+            if (!success)
                 return NotFound("product not found");
 
-            if(dto.CategoryId != Guid.Empty)
-            {
-                var categoryExists = await dbContext.Categories.AnyAsync(c => c.Id == dto.CategoryId);
-                if (!categoryExists) return BadRequest("given category doesnt exist");
-                product.CategoryId = dto.CategoryId;
-            }
-
-            product.Name = dto.Name;
-            product.Description = dto.Description;
-            product.Price = dto.Price;
-            product.ImageUrl = dto.ImageUrl;
-            product.StockQuantity = dto.StockQuantity;
-
-            await dbContext.SaveChangesAsync();
-            return Ok(product);
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(Guid id)
         {
-            var product = dbContext.Products.Find(id);
-            if (product == null)
+            var success = await productService.DeleteProductAsync(id);
+            if (!success)
                 return NotFound("product not found");
-            dbContext.Products.Remove(product);
-            await dbContext.SaveChangesAsync();
+
             return NoContent();
         }
     }
