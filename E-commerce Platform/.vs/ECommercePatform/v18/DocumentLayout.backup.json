@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\prflio\\Online-shop\\E-commerce Platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\mappings\\productmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\mappings\\productmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\mappings\\categorymappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\mappings\\categorymappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|d:\\prflio\\online-shop\\e-commerce platform\\e-commerce platform\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductMappings.cs",
+              "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Mappings\\ProductMappings.cs",
+              "RelativeDocumentMoniker": "E-commerce Platform\\Mappings\\ProductMappings.cs",
+              "ToolTip": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Mappings\\ProductMappings.cs",
+              "RelativeToolTip": "E-commerce Platform\\Mappings\\ProductMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T21:38:38.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CategoryMappings.cs",
+              "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Mappings\\CategoryMappings.cs",
+              "RelativeDocumentMoniker": "E-commerce Platform\\Mappings\\CategoryMappings.cs",
+              "ToolTip": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Mappings\\CategoryMappings.cs",
+              "RelativeToolTip": "E-commerce Platform\\Mappings\\CategoryMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T20:51:45.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Services\\ProductService.cs",
               "ToolTip": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Services\\ProductService.cs",
               "RelativeToolTip": "E-commerce Platform\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T22:08:39.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Controllers\\CategoriesController.cs",
@@ -55,25 +89,24 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T22:07:17.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:07:17.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Services\\CategoryService.cs",
               "ToolTip": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Services\\CategoryService.cs",
               "RelativeToolTip": "E-commerce Platform\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T22:06:51.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Program.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Program.cs",
@@ -81,12 +114,11 @@
               "RelativeToolTip": "E-commerce Platform\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T22:04:28.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:04:28.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Controllers\\ProductsController.cs",
@@ -94,8 +126,7 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T21:47:09.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:47:09.426Z"
             }
           ]
         }

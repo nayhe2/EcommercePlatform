@@ -4,6 +4,7 @@ using ECommercePlatform.Services.Interfaces;
 using ECommercePlatform.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using ECommercePlatform.Mappings;
 
 
 namespace ECommercePlatform.Services
@@ -19,11 +20,10 @@ namespace ECommercePlatform.Services
 
         public async Task<CategoryDto> CreateCategoryAsync(CreateCategoryDto dto)
         {
-            var newCategory = new Category{ Name = dto.Name };
+            var newCategory = dto.ToEntity();
             dbContext.Categories.Add(newCategory);
             await dbContext.SaveChangesAsync();
-
-            var responseDto = new CategoryDto(newCategory.Id, newCategory.Name, []);
+            var responseDto = newCategory.ToDto();
             return responseDto;
         }
 
@@ -36,22 +36,11 @@ namespace ECommercePlatform.Services
             {
                 query = query.Where(c => c.Id == id.Value);
             }
-
-            var result = await query.Select(c => new CategoryDto
-            (
-               c.Id,
-               c.Name,
-               c.Products.Select(p => new ProductDto(
-                   p.Id,
-                   p.Name,
-                   p.Description,
-                   p.Price,
-                   p.ImageUrl,
-                   c.Name,
-                   p.CategoryId,
-                   p.StockQuantity
-                )).ToList()
-            )).ToListAsync();
+            var categoriesFromDb = await query
+                .Include(c => c.Products)
+                .ToListAsync();
+             
+            var result = categoriesFromDb.Select(c => c.ToDto()).ToList();
             return result;
         }
 

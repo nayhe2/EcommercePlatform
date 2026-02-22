@@ -1,5 +1,6 @@
 ﻿using ECommercePlatform.Data;
 using ECommercePlatform.DTOs;
+using ECommercePlatform.Mappings;
 using ECommercePlatform.Models;
 using ECommercePlatform.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -18,44 +19,19 @@ namespace ECommercePlatform.Services
         public async Task<List<ProductDto>> GetAllProductsAsync()
         {
             var products = await dbContext.Products
-                .Select(p => new ProductDto(
-                    p.Id,
-                    p.Name,
-                    p.Description,
-                    p.Price,
-                    p.ImageUrl,
-                    p.Category.Name,
-                    p.CategoryId,
-                    p.StockQuantity
-                    )
-                ).ToListAsync();
-            return products;
+                .Include(p => p.Category)
+                .ToListAsync();
+            var productsDto = products.Select(p => p.ToDto()).ToList();
+
+            return productsDto;
         }
 
         public async Task<ProductDto> AddProductAsync(CreateProductDto dto)
         {
-            var newProduct = new Product()
-            {
-                Name = dto.Name,
-                Description = dto.Description,
-                Price = dto.Price,
-                ImageUrl = dto.ImageUrl,
-                StockQuantity = dto.StockQuantity,
-                CategoryId = dto.CategoryId,
-
-            };
+            var newProduct = dto.ToEntity();
             dbContext.Products.Add(newProduct);
             await dbContext.SaveChangesAsync();
-            var responseDto = new ProductDto(
-                newProduct.Id,
-                newProduct.Name,
-                newProduct.Description,
-                newProduct.Price,
-                newProduct.ImageUrl,
-                newProduct.Category.Name,
-                newProduct.CategoryId,
-                newProduct.StockQuantity);
-
+            var responseDto = newProduct.ToDto();
             return responseDto;
         }
 
@@ -70,15 +46,8 @@ namespace ECommercePlatform.Services
             {
                 var categoryExists = await dbContext.Categories.AnyAsync(c => c.Id == dto.CategoryId);
                 if (!categoryExists) return false;
-                product.CategoryId = dto.CategoryId;
             }
-
-            product.Name = dto.Name;
-            product.Description = dto.Description;
-            product.Price = dto.Price;
-            product.ImageUrl = dto.ImageUrl;
-            product.StockQuantity = dto.StockQuantity;
-
+            product.UpdateEntity(dto);
             await dbContext.SaveChangesAsync();
             return true;
         }
