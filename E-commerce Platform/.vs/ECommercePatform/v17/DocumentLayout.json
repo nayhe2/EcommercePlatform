@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,64 +23,8 @@
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\validators\\createproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\createorderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\createorderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\ecommerceplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\ecommerceplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\models\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\models\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -100,6 +36,70 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|c:\\users\\wiktor\\desktop\\ecommerceplatform\\e-commerce platform\\e-commerce platform\\ecommerceplatform.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{1C0AE33A-FDBA-46B9-9FF4-CB80A175DD8F}|E-commerce Platform\\ECommercePlatform.csproj|solutionrelative:e-commerce platform\\ecommerceplatform.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Mappings\\ProductProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Mappings\\ProductProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CategoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\CategoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\RegisterUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\RegisterUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\OrderProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\OrderProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\OrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\OrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CreateOrderProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\CreateOrderProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CreateOrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Dto\\CreateOrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\Address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\OrderProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-commerce Platform\\Models\\Entities\\OrderProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,7 +113,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ProductProfile.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Mappings\\ProductProfile.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Mappings\\ProductProfile.cs",
@@ -121,8 +121,7 @@
               "RelativeToolTip": "E-commerce Platform\\Mappings\\ProductProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T04:39:26.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T04:39:26.383Z"
             },
             {
               "$type": "Document",
@@ -134,12 +133,11 @@
               "RelativeToolTip": "E-commerce Platform\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:22:51.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T16:22:51.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CategoryDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\CategoryDto.cs",
@@ -147,8 +145,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:33:39.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T21:33:39.429Z"
             },
             {
               "$type": "Document",
@@ -160,12 +157,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:50:24.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:50:24.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\RegisterUserDto.cs",
@@ -173,12 +169,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\RegisterUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:49:55.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:49:55.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\Order.cs",
@@ -186,12 +181,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:40:46.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:40:46.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Controllers\\ProductsController.cs",
@@ -199,12 +193,11 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA5wCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:04:40.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T17:04:40.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CreateProductDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Validators\\CreateProductDtoValidator.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Validators\\CreateProductDtoValidator.cs",
@@ -212,12 +205,11 @@
               "RelativeToolTip": "E-commerce Platform\\Validators\\CreateProductDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T03:30:44.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T03:30:44.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\Product.cs",
@@ -225,12 +217,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:09:23.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T16:09:23.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Data\\ApplicationDbContext.cs",
@@ -238,12 +229,11 @@
               "RelativeToolTip": "E-commerce Platform\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:13:10.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T16:13:10.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Controllers\\CategoriesController.cs",
@@ -251,12 +241,11 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:24:17.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T21:24:17.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "OrderProductDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\OrderProductDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\OrderProductDto.cs",
@@ -264,12 +253,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\OrderProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:48:56.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:48:56.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\OrderDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\OrderDto.cs",
@@ -277,12 +265,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:48:12.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:48:12.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\User.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\User.cs",
@@ -290,12 +277,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:40:20.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:40:20.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "CreateOrderProductDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CreateOrderProductDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\CreateOrderProductDto.cs",
@@ -303,12 +289,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\CreateOrderProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:49:34.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:49:34.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\LoginDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\LoginDto.cs",
@@ -316,12 +301,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:50:08.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:50:08.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\ProductDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\ProductDto.cs",
@@ -329,12 +313,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:46:27.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:46:27.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\Category.cs",
@@ -342,12 +325,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:39:52.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:39:52.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Dto\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Dto\\CreateOrderDto.cs",
@@ -355,12 +337,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Dto\\CreateOrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:49:13.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:49:13.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\Address.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\Address.cs",
@@ -368,12 +349,11 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:40:32.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:40:32.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "ECommercePlatform.csproj",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\ECommercePlatform.csproj",
               "RelativeDocumentMoniker": "E-commerce Platform\\ECommercePlatform.csproj",
@@ -381,12 +361,11 @@
               "RelativeToolTip": "E-commerce Platform\\ECommercePlatform.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-17T17:04:52.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T17:04:52.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "OrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Models\\Entities\\OrderProduct.cs",
               "RelativeDocumentMoniker": "E-commerce Platform\\Models\\Entities\\OrderProduct.cs",
@@ -394,24 +373,22 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Entities\\OrderProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:42:21.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:42:21.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
               "Title": "ECommercePlatform",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\ECommercePlatform.csproj",
               "RelativeDocumentMoniker": "E-commerce Platform\\ECommercePlatform.csproj",
               "ToolTip": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\ECommercePlatform.csproj",
               "RelativeToolTip": "E-commerce Platform\\ECommercePlatform.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-17T17:14:22.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T17:14:22.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "20260217171911_guidUpdateProduct.cs",
               "DocumentMoniker": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Migrations\\20260217171911_guidUpdateProduct.cs",
               "ToolTip": "D:\\prflio\\Online-shop\\E-commerce Platform\\E-commerce Platform\\Migrations\\20260217171911_guidUpdateProduct.cs",
@@ -420,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\wiktor\\Desktop\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\appsettings.json",
               "RelativeDocumentMoniker": "E-commerce Platform\\appsettings.json",
@@ -428,8 +405,7 @@
               "RelativeToolTip": "E-commerce Platform\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAADRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-17T16:27:04.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T16:27:04.616Z"
             }
           ]
         }

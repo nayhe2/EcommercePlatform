@@ -19,20 +19,27 @@ namespace ECommercePlatform.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Precyzja dla cen
+            // 1. Precyzja dla ułamków (żeby nie ucinało groszy)
             modelBuilder.Entity<Product>().Property(p => p.Price).HasPrecision(18, 2);
             modelBuilder.Entity<Order>().Property(o => o.TotalAmount).HasPrecision(18, 2);
             modelBuilder.Entity<OrderProduct>().Property(op => op.UnitPrice).HasPrecision(18, 2);
 
-            // Relacje OrderProduct
+            // ==========================================
+            // 2. KLUCZ GŁÓWNY ZŁOŻONY DLA TABELI POMOCNICZEJ (TEGO BRAKOWAŁO!)
+            // ==========================================
+            modelBuilder.Entity<OrderProduct>()
+                .HasKey(op => new { op.OrderId, op.ProductId });
+
+            // 3. Relacje 1:M (Order -> OrderProducts)
             modelBuilder.Entity<OrderProduct>()
                 .HasOne(op => op.Order)
                 .WithMany(o => o.OrderProducts)
                 .HasForeignKey(op => op.OrderId);
 
+            // 4. Relacje 1:M (Product -> OrderProducts)
             modelBuilder.Entity<OrderProduct>()
                 .HasOne(op => op.Product)
-                .WithMany() // Produkt nie musi mieć listy zamówień
+                .WithMany() // Zostawiamy puste! Produkt nie musi wiedzieć, w jakich zamówieniach występuje (optymalizacja)
                 .HasForeignKey(op => op.ProductId);
         }
     }

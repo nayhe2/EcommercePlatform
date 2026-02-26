@@ -18,12 +18,12 @@ var blobConnection = builder.Configuration.GetConnectionString("BlobStorage");
 builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateProductDtoValidator>();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCategoryDtoValidator>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    options.UseSqlServer(sqlConnection);
+    options.UseNpgsql(sqlConnection);
 });
 builder.Services.AddSingleton(new BlobContainerClient(blobConnection, "product-images"));
 
