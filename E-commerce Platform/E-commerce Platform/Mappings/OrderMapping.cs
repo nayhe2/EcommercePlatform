@@ -1,28 +1,37 @@
 ﻿using ECommercePlatform.DTOs;
 using ECommercePlatform.Models;
-using System.Runtime.CompilerServices;
 
 namespace ECommercePlatform.Mappings
 {
     public static class OrderMapping
     {
-        public static OrderDto toDto(this Order order)
+        public static OrderDto? ToDto(this Order order)
         {
-            return new OrderDto
-            (
+            if (order == null) return null;
+
+            return new OrderDto(
+                order.Id,                     // Poprawka: Dodano brakujące Id
                 order.OrderDate,
                 order.Status,
                 order.TotalAmount,
                 order.ShippingAddressString,
-                order.OrderProducts?.Select(op => op.toDto()).ToList() ?? []));
+                // Używamy ! aby upewnić kompilator, że nie zwrócimy tu nulli po przefiltrowaniu
+                order.OrderProducts?.Select(op => op.ToDto()!).Where(op => op != null).ToList() ?? new List<OrderProductDto>()
+            );
+        }
 
+        // Poprawka: Dodano brakującą metodę rozszerzającą dla OrderProduct
+        public static OrderProductDto? ToDto(this OrderProduct orderProduct)
+        {
+            if (orderProduct == null) return null;
+
+            return new OrderProductDto(
+                orderProduct.ProductId,
+                orderProduct.Product?.Name ?? "Nieznany produkt",
+                orderProduct.Product?.ImageUrl ?? string.Empty,
+                orderProduct.Quantity,
+                orderProduct.UnitPrice
+            );
         }
     }
 }
-public record OrderDto(Guid Id,
-    DateTime OrderDate, 
-    string Status, 
-    decimal TotalAmount, 
-    string ShippingAddress, 
-    List<OrderProductDto> Items);
-category.Products?.Select(p => p.ToDto()).ToList() ?? []);

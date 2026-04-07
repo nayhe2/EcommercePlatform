@@ -69,6 +69,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ECommercePlatform.Controllers.OrdersController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ECommercePlatform.DTOs.CreateOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ECommercePlatform.Controllers.ProductsController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Products",

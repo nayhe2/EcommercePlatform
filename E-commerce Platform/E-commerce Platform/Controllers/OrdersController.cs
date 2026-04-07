@@ -1,7 +1,5 @@
 ﻿using ECommercePlatform.DTOs;
-using ECommercePlatform.Services;
 using ECommercePlatform.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommercePlatform.Controllers
@@ -14,20 +12,21 @@ namespace ECommercePlatform.Controllers
 
         public OrdersController(IOrderService orderService)
         {
-            this.ordersService = orderService; 
+            this.ordersService = orderService;
         }
 
         [HttpPost]
-        public Task<IActionResult> CreateOrder(CreateOrderDto dto)
+        public async Task<IActionResult> CreateOrder(CreateOrderDto dto)
         {
-            var orders = ordersService.CreateOrderAsync(dto);
-            return Ok(orders);
+            var order = await ordersService.CreateOrderAsync(dto);
+            return Ok(order);
         }
 
-        [HttpGet]
-        public Task<IActionResult> GetOrders()
-        {
-            var orders = 
-        }
+        // [HttpGet]
+        // public async Task<IActionResult> GetOrders()
+        // {
+        //     var orders = await ordersService.GetOrdersAsync();
+        //     return Ok(orders);
+        // }
     }
 }

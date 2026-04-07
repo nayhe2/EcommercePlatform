@@ -29,6 +29,7 @@ builder.Services.AddSingleton(new BlobContainerClient(blobConnection, "product-i
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
 

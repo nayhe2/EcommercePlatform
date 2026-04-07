@@ -183,7 +183,6 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\ECommercePlatform.runtimeconfig.json
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\ECommercePlatform.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\ECommercePlatform.pdb
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Azure.Storage.Blobs.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Azure.Storage.Common.dll
@@ -213,10 +212,6 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Mono.TextTemplating.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -229,10 +224,8 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Composition.Hosting.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.IO.Hashing.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\System.Text.Json.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -316,7 +309,6 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\swae.build.ex.cache
-C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommerc.8B9E5424.Up2Date
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\refint\ECommercePlatform.dll
@@ -325,3 +317,16 @@ C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platfor
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ref\ECommercePlatform.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Npgsql.dll
 C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.csproj.AssemblyReference.cache
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.GeneratedMSBuildEditorConfig.editorconfig
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.AssemblyInfoInputs.cache
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.AssemblyInfo.cs
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.csproj.CoreCompileInputs.cache
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.MvcApplicationPartsAssemblyInfo.cs
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.MvcApplicationPartsAssemblyInfo.cache
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.sourcelink.json
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.dll
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\refint\ECommercePlatform.dll
+E:\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\ECommercePlatform.pdb
+C:\Users\wiktor\Desktop\EcommercePlatform\E-commerce Platform\E-commerce Platform\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

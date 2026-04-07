@@ -12,7 +12,9 @@ namespace ECommercePlatform.Mappings
             return new CategoryDto(
                 category.Id,
                 category.Name,
-                category.Products?.Select(p => p.ToDto()).ToList() ?? []);
+                // Filtrujemy nulle i wymuszamy typ nie-nullowy dla zachowania zgodności z rekordem
+                category.Products?.Where(p => p != null).Select(p => p.ToDto()!).ToList() ?? new List<ProductDto>()
+            );
         }
 
         public static Category ToEntity(this CreateCategoryDto dto)
@@ -24,4 +26,3 @@ namespace ECommercePlatform.Mappings
         }
     }
 }
-    
