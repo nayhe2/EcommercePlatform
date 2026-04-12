@@ -181,8 +181,7 @@
               "RelativeToolTip": "E-commerce Platform\\Validators\\CreateCategoryDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T14:38:00.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T14:38:00.808Z"
             },
             {
               "$type": "Document",
@@ -194,8 +193,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\ProductService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:17:28.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:17:28.881Z"
             },
             {
               "$type": "Document",
@@ -207,8 +205,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\CategoryService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:17:17.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:17:17.243Z"
             },
             {
               "$type": "Document",
@@ -218,7 +215,7 @@
               "RelativeDocumentMoniker": "E-commerce Platform\\Program.cs",
               "ToolTip": "D:\\prflio\\EcommercePlatform\\E-commerce Platform\\E-commerce Platform\\Program.cs",
               "RelativeToolTip": "E-commerce Platform\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T22:04:28.881Z",
               "EditorCaption": ""
@@ -233,8 +230,7 @@
               "RelativeToolTip": "E-commerce Platform\\Validators\\CreateProductDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T22:07:20.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T22:07:20.476Z"
             },
             {
               "$type": "Document",
@@ -246,8 +242,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\OrderService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAA1wD0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:05:03.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:05:03.085Z"
             },
             {
               "$type": "Document",
@@ -259,8 +254,7 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:26:04.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:26:04.693Z"
             },
             {
               "$type": "Document",
@@ -272,8 +266,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\Interfaces\\IOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:23:25.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:23:25.528Z"
             },
             {
               "$type": "Document",
@@ -285,8 +278,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\OrderResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:55:51.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:55:51.307Z"
             },
             {
               "$type": "Document",
@@ -298,8 +290,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T18:53:48.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T18:53:48.658Z"
             },
             {
               "$type": "Document",
@@ -311,8 +302,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\CreateOrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:46:53.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:46:53.975Z"
             },
             {
               "$type": "Document",
@@ -324,8 +314,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T18:51:05.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T18:51:05.697Z"
             },
             {
               "$type": "Document",
@@ -337,8 +326,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\OrderProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:26:22.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:26:22.642Z"
             },
             {
               "$type": "Document",
@@ -350,8 +338,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\OrderProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:45:05.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:45:05.634Z"
             },
             {
               "$type": "Document",
@@ -363,8 +350,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\AuthService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwDUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T20:19:42.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T20:19:42.816Z"
             },
             {
               "$type": "Document",
@@ -376,8 +362,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T22:07:01.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T22:07:01.18Z"
             },
             {
               "$type": "Document",
@@ -389,8 +374,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\Interfaces\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T20:20:03.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T20:20:03.559Z"
             },
             {
               "$type": "Document",
@@ -402,8 +386,7 @@
               "RelativeToolTip": "E-commerce Platform\\Services\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T20:18:37.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T20:18:37.805Z"
             },
             {
               "$type": "Document",
@@ -415,8 +398,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T15:24:30.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T15:24:30.671Z"
             },
             {
               "$type": "Document",
@@ -428,8 +410,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\CreateOrderProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:51:22.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:51:22.048Z"
             },
             {
               "$type": "Document",
@@ -441,8 +422,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\CreateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:51:26.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:51:26.444Z"
             },
             {
               "$type": "Document",
@@ -454,8 +434,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:51:03.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:51:03.867Z"
             },
             {
               "$type": "Document",
@@ -467,8 +446,7 @@
               "RelativeToolTip": "E-commerce Platform\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T15:24:40.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T15:24:40.489Z"
             },
             {
               "$type": "Document",
@@ -480,8 +458,7 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T20:20:57.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T20:20:57.635Z"
             },
             {
               "$type": "Document",
@@ -493,8 +470,7 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwCEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T22:07:17.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:07:17.83Z"
             },
             {
               "$type": "Document",
@@ -506,8 +482,7 @@
               "RelativeToolTip": "E-commerce Platform\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAqwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T21:47:09.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:47:09.426Z"
             },
             {
               "$type": "Document",
@@ -519,8 +494,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:26:35.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:26:35.755Z"
             },
             {
               "$type": "Document",
@@ -532,8 +506,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:26:27.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:26:27.541Z"
             },
             {
               "$type": "Document",
@@ -545,8 +518,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\RegisterUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:26:28.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:26:28.666Z"
             },
             {
               "$type": "Document",
@@ -558,8 +530,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:26:13.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:26:13.383Z"
             },
             {
               "$type": "Document",
@@ -571,8 +542,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\CreateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:55:37.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:55:37.259Z"
             },
             {
               "$type": "Document",
@@ -584,8 +554,7 @@
               "RelativeToolTip": "E-commerce Platform\\DTOs\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:45:11.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T09:45:11.084Z"
             },
             {
               "$type": "Document",
@@ -597,8 +566,7 @@
               "RelativeToolTip": "E-commerce Platform\\Mappings\\CategoryMappings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T20:51:45.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T20:51:45.194Z"
             },
             {
               "$type": "Document",
@@ -610,8 +578,7 @@
               "RelativeToolTip": "E-commerce Platform\\Models\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T19:23:29.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T19:23:29.647Z"
             },
             {
               "$type": "Document",
