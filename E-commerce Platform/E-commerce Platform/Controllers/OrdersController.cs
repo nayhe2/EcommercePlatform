@@ -1,6 +1,7 @@
 ﻿using ECommercePlatform.DTOs;
 using ECommercePlatform.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ECommercePlatform.Controllers
 {
@@ -18,15 +19,32 @@ namespace ECommercePlatform.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateOrder(CreateOrderDto dto)
         {
-            var order = await ordersService.CreateOrderAsync(dto);
-            return Ok(order);
+            var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (string.IsNullOrEmpty(userIdString))
+                return Unauthorized();
+
+            var userId = Guid.Parse(userIdString);
+            var result = await ordersService.CreateOrderAsync(dto);
+
+            if (!result)
+                return BadRequest("Nie udało się utworzyć zamówienia.");
+
+            return Ok("Zamówienie zostało utworzone.");
         }
 
-        // [HttpGet]
-        // public async Task<IActionResult> GetOrders()
-        // {
-        //     var orders = await ordersService.GetOrdersAsync();
-        //     return Ok(orders);
-        // }
+        [HttpGet]
+        public async Task<IActionResult> GetOrders()
+        {
+            var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (string.IsNullOrEmpty(userIdString))
+                return Unauthorized();
+
+            var userId = Guid.Parse(userIdString);
+            var orders = await ordersService.GetUserOrdersAsync(userId);
+
+            return Ok(orders);
+        }
     }
 }

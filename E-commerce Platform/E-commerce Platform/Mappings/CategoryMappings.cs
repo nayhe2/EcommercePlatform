@@ -12,8 +12,7 @@ namespace ECommercePlatform.Mappings
             return new CategoryDto(
                 category.Id,
                 category.Name,
-                // Filtrujemy nulle i wymuszamy typ nie-nullowy dla zachowania zgodności z rekordem
-                category.Products?.Where(p => p != null).Select(p => p.ToDto()!).ToList() ?? new List<ProductDto>()
+                category.Products?.Where(p => p is not null).Select(p => p.ToDto()!).ToList() ?? new List<ProductDto>()
             );
         }
 
