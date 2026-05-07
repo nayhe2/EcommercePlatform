@@ -17,7 +17,7 @@ namespace ECommercePlatform.Mappings
                 product.Description,
                 product.Price,
                 product.ImageUrl,
-                product.Category?.Name ?? "Brak",
+                product.Category?.Name ?? "None",
                 product.CategoryId,
                 product.StockQuantity
                 );

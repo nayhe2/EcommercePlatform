@@ -11,7 +11,7 @@ namespace ECommercePlatform.Models
 
         public ICollection<Order> Orders { get; set; } = new List<Order>();
 
-        // Poprawka: Zmiana z ICollection<Address> na pojedynczy Address 
+        // zmiana z ICollection<Address> na pojedynczy Address 
         // aby pasowało do konfiguracji w ApplicationDbContext
         public Address? Address { get; set; }
     }

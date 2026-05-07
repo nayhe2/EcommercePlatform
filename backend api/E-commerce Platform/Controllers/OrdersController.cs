@@ -28,9 +28,9 @@ namespace ECommercePlatform.Controllers
             var result = await ordersService.CreateOrderAsync(dto);
 
             if (!result)
-                return BadRequest("Nie udało się utworzyć zamówienia.");
+                return BadRequest("Failed to place the order");
 
-            return Ok("Zamówienie zostało utworzone.");
+            return Ok("Order has been placed successfully");
         }
 
         [HttpGet]
@@ -41,10 +41,19 @@ namespace ECommercePlatform.Controllers
             if (string.IsNullOrEmpty(userIdString))
                 return Unauthorized();
 
-            var userId = Guid.Parse(userIdString);
-            var orders = await ordersService.GetUserOrdersAsync(userId);
+            var isAdmin = User.FindFirstValue(ClaimTypes.Role) == "Admin";
 
-            return Ok(orders);
+            if (isAdmin)
+            {
+                var orders = await ordersService.GetOrdersAsync();
+                return Ok(orders);
+            }
+            else
+            {
+                var userId = Guid.Parse(userIdString);
+                var orders = await ordersService.GetUserOrdersAsync(userId);
+                return Ok(orders);
+            }
         }
     }
 }

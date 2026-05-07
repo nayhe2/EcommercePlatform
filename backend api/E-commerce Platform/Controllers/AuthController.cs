@@ -20,7 +20,7 @@ namespace ECommercePlatform.Controllers
         {
             var result = await _authService.RegisterAsync(dto);
             if (result == null)
-                return BadRequest("Użytkownik o podanym adresie email już istnieje.");
+                return BadRequest("A user with provided email already exists");
 
             return Ok(result);
         }
@@ -30,7 +30,7 @@ namespace ECommercePlatform.Controllers
         {
             var result = await _authService.LoginAsync(dto);
             if (result == null)
-                return Unauthorized("Nieprawidłowy email lub hasło.");
+                return Unauthorized("Invalid email or password");
 
             return Ok(result);
         }

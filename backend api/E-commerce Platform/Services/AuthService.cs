@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Text;
 
 namespace ECommercePlatform.Services
 {
@@ -57,7 +56,10 @@ namespace ECommercePlatform.Services
         private string GenerateJwtToken(User user)
         {
             var jwtSettings = _configuration.GetSection("Jwt");
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]!));
+            var encryptionKeyBase64 = jwtSettings["Key"];
+
+            var keyBytes = Convert.FromBase64String(encryptionKeyBase64);
+            var key = new SymmetricSecurityKey(keyBytes);
 
             var claims = new List<Claim>
             {
@@ -66,15 +68,20 @@ namespace ECommercePlatform.Services
                 new Claim(ClaimTypes.Role, user.Role)
             };
 
-            var token = new JwtSecurityToken(
-                issuer: jwtSettings["Issuer"],
-                audience: jwtSettings["Audience"],
-                claims: claims,
-                expires: DateTime.UtcNow.AddDays(7),
-                signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
-            );
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                Expires = DateTime.UtcNow.AddDays(7),
+                EncryptingCredentials = new EncryptingCredentials(
+                    key,
+                    SecurityAlgorithms.Aes256KW,
+                    SecurityAlgorithms.Aes256CbcHmacSha512
+                 )
+            };
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateJwtSecurityToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
     }
 }

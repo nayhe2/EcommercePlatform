@@ -8,9 +8,9 @@ namespace ECommercePlatform.Validators
         public CreateCategoryDtoValidator()
         {
             RuleFor(x => x.Name)
-                .NotEmpty().WithMessage("Nazwa kategorii jest wymagana.")
-                .MinimumLength(3).WithMessage("Nazwa kategorii musi mieć co najmniej 3 znaki.")
-                .MaximumLength(50).WithMessage("Nazwa kategorii nie może być dłuższa niż 50 znaków.");
+                .NotEmpty().WithMessage("Category name is required")
+                .MinimumLength(3).WithMessage("Category name must have at least 3 characters")
+                .MaximumLength(50).WithMessage("Category name cannot exceed 50 characters");
         }
     }
 }

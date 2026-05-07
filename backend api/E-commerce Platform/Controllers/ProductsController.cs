@@ -2,6 +2,7 @@
 using ECommercePlatform.DTOs;
 using ECommercePlatform.Models;
 using ECommercePlatform.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +29,7 @@ namespace ECommercePlatform.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddProduct(CreateProductDto dto)
         {
             var result = await productService.AddProductAsync(dto);
@@ -35,21 +37,23 @@ namespace ECommercePlatform.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(Guid id, CreateProductDto dto)
         {
             var success = await productService.UpdateProductAsync(id, dto);
             if (!success)
-                return NotFound("product not found");
+                return NotFound("Product not found");
 
             return NoContent();
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(Guid id)
         {
             var success = await productService.DeleteProductAsync(id);
             if (!success)
-                return NotFound("product not found");
+                return NotFound("Product not found");
 
             return NoContent();
         }

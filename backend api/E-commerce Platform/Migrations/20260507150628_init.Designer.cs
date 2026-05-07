@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ECommercePlatform.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260224184413_init")]
+    [Migration("20260507150628_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -52,7 +52,8 @@ namespace ECommercePlatform.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Addresses");
                 });
@@ -109,9 +110,6 @@ namespace ECommercePlatform.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("ProductId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("Id")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Quantity")
@@ -189,8 +187,8 @@ namespace ECommercePlatform.Migrations
             modelBuilder.Entity("ECommercePlatform.Models.Address", b =>
                 {
                     b.HasOne("ECommercePlatform.Models.User", "User")
-                        .WithMany("Addresses")
-                        .HasForeignKey("UserId")
+                        .WithOne("Address")
+                        .HasForeignKey("ECommercePlatform.Models.Address", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -202,7 +200,7 @@ namespace ECommercePlatform.Migrations
                     b.HasOne("ECommercePlatform.Models.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("User");
@@ -219,7 +217,7 @@ namespace ECommercePlatform.Migrations
                     b.HasOne("ECommercePlatform.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Order");
@@ -232,7 +230,7 @@ namespace ECommercePlatform.Migrations
                     b.HasOne("ECommercePlatform.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Category");
@@ -250,7 +248,7 @@ namespace ECommercePlatform.Migrations
 
             modelBuilder.Entity("ECommercePlatform.Models.User", b =>
                 {
-                    b.Navigation("Addresses");
+                    b.Navigation("Address");
 
                     b.Navigation("Orders");
                 });

@@ -1,11 +1,12 @@
 ﻿using ECommercePlatform.Data;
 using ECommercePlatform.DTOs;
 using ECommercePlatform.Models;
+using ECommercePlatform.Services;
+using ECommercePlatform.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ECommercePlatform.Services;
 using System;
-using ECommercePlatform.Services.Interfaces;
 using System.Reflection.Metadata.Ecma335;
 
 namespace ECommercePlatform.Controllers
@@ -22,6 +23,7 @@ namespace ECommercePlatform.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto dto)
         {
             var responseDto = await categoryService.CreateCategoryAsync(dto);
@@ -36,21 +38,23 @@ namespace ECommercePlatform.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateCategory(Guid id, [FromBody] CreateCategoryDto dto)
         {
             var success = await categoryService.UpdateCategoryAsync(id, dto);
             if (!success)
-                return NotFound("category not found");
+                return NotFound("Category not found");
             
             return NoContent();
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteCategory(Guid id)
         {
             var success = await categoryService.DeleteCategoryAsync(id);
             if (!success)
-                return NotFound("category not found");
+                return NotFound("Category not found");
 
             return NoContent();
         }

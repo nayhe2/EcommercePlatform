@@ -2,6 +2,7 @@
 using ECommercePlatform.DTOs;
 using ECommercePlatform.Models;
 using ECommercePlatform.Services.Interfaces;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
@@ -23,7 +24,7 @@ namespace ECommercePlatform.Services
             var userIdString = httpContextAccessor.HttpContext?.User?.FindFirstValue(ClaimTypes.NameIdentifier);
 
             if (string.IsNullOrEmpty(userIdString))
-                throw new UnauthorizedAccessException("Brak zalogowanego uzytkownika");
+                throw new UnauthorizedAccessException("User not logged in");
 
             var userId = Guid.Parse(userIdString);
 
@@ -67,6 +68,31 @@ namespace ECommercePlatform.Services
                 .ThenInclude(op => op.Product)
                 .Select(o => new OrderResponseDto
                 {
+                    OrderId = o.Id,
+                    OrderDate = o.OrderDate,
+                    TotalAmount = o.TotalAmount,
+                    ShippingAddress = o.ShippingAddressString,
+                    Items = o.OrderProducts.Select(op => new OrderItemResponseDto
+                    {
+                        ProductId = op.ProductId,
+                        ProductName = op.Product.Name,
+                        Quantity = op.Quantity,
+                        UnitPrice = op.UnitPrice
+                    }).ToList()
+                })
+                .ToListAsync();
+
+            return orders;
+        }
+
+        public async Task<List<AdminOrderResponseDto>> GetOrdersAsync()
+        {
+            var orders = await dbContext.Orders
+                .Include(o=>o.OrderProducts)
+                .ThenInclude(op=>op.Product)
+                .Select(o=> new AdminOrderResponseDto
+                {
+                    UserId = o.UserId,
                     OrderId = o.Id,
                     OrderDate = o.OrderDate,
                     TotalAmount = o.TotalAmount,

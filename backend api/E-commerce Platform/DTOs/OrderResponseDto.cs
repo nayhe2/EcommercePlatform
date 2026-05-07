@@ -17,5 +17,10 @@
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
     }
+
+    public record AdminOrderResponseDto : OrderResponseDto
+    {
+        public Guid UserId { get; set; }
+    }
 }
 

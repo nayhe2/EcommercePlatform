@@ -7,21 +7,21 @@ namespace ECommercePlatform.Validators
         public CreateProductDtoValidator()
         {
             RuleFor(x => x.Name)
-                .NotEmpty().WithMessage("Nazwa produktu jest wymagana.")
-                .MinimumLength(3).WithMessage("Nazwa musi mieć co najmniej 3 znaki.")
-                .MaximumLength(100).WithMessage("Nazwa nie może być dłuższa niż 100 znaków.");
+                .NotEmpty().WithMessage("Product name is required")
+                .MinimumLength(3).WithMessage("Product name must have at least 3 characters")
+                .MaximumLength(100).WithMessage("Product name cannot exceed 100 characters");
 
             RuleFor(x => x.Price)
-                .GreaterThan(0).WithMessage("Cena musi być większa niż 0.");
+                .GreaterThan(0).WithMessage("Price must be greater than 0");
 
             RuleFor(x => x.StockQuantity)
-                .GreaterThanOrEqualTo(0).WithMessage("Stan magazynowy nie może być ujemny.");
+                .GreaterThanOrEqualTo(0).WithMessage("Stock quantity cannot be less than 0");
 
             RuleFor(x => x.CategoryId)
-                .NotEmpty().WithMessage("Musisz wybrać kategorię dla produktu.");
+                .NotEmpty().WithMessage("You must select a category for the product");
 
             RuleFor(x => x.Description)
-                .MaximumLength(500).WithMessage("Opis jest za długi (max 500 znaków).");
+                .MaximumLength(500).WithMessage("Product description is too long (max 500 characters)");
         }
     }
 }
